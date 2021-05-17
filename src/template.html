@@ -1,3 +1,7 @@
+<!-- Use this as inspo http://www.pascalvangemert.nl/#/contact add resume bits on the actual webstie?? -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,16 +21,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
 
     <!-- Remove this script once you setup your custom portfolio -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
 
@@ -38,9 +37,8 @@
           <br />
           I'm an aspiring Product Manager!
         </h1>
-        <!-- Figure out how to add resume here and not have it look wack -->
         <p class="hero-cta" class="load-hidden">
-          <a target="_blank" class="cta-btn cta-btn--hero" href="">View resume</a>
+          <a target="_blank" class="cta-btn cta-btn--hero" href="../src/assets/resume.pdf">View resume</a>
         </p>
       </div>
     </div>
@@ -55,30 +53,22 @@
             <div class="about-wrapper__image">
               <!-- Need to update -->
               <img
-                class="img-fluid rounded shadow-lg"
+                class="img-fluid rounded shadow-lg prof-pic"
                 height="auto"
                 width="300px"
-                src="./assets/profile.jpg"
+                src="./assets/Headshot.jpg"
                 alt="Profile Image"
               />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
-              <!-- update -->
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
-              </p>
-              <!-- update -->
+                My name is Shaleen & I am an Associate Consultant at Bain looking to break into Product Management. At Bain, I have really enjoyed learning about software products and understanding what drove their success. This led me to become interested in Product Management - the ability to be the voice of the customer and drive progress on great products really excites me.              </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                Outside of Bain, I work part-time at <a href="https://www.Auxi.ai" target="_blank" class="auxi">auxi.ai</a> as a Product Manager on an automated chat box slide creation tool for consultants. I also started teaching myself coding earlier this year and am working on a variety of side-projects (like this website!) primarily using React & Node.js to build web applications.
               </p>
               <span class="d-flex mt-3">
-                <!-- Delete or replace with something -->
-                <a target="_blank" class="cta-btn cta-btn--resume" href="">
-                  View Resume
-                </a>
               </span>
             </div>
           </div>
@@ -94,33 +84,62 @@
           <h2 class="section-title dark-blue-text">Projects</h2>
 
           <!-- Each .row is a project -->
-          <!-- Smartbrain -->
+          <!-- Smartbrain - frontend-->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Smartbrain - Frontend</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    SmartBrain is a website that uses a Clarifai API to recognize faces. It saves user credential and how many entries they have.
+                    SmartBrain was built using React frontend, Node.js & Express.js backend, and a postgreSQL database. 
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://smart-brain-sg-fe.herokuapp.com/">
+                  See Live!
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/shaleeng/SmartBrain">
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
+                <a href="https://smart-brain-sg-fe.herokuapp.com/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
+                    <img class="img-fluid" src="./assets/Smartbrain.jpg"/>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <!--SB API -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">SmartBrain - API</h3>
+                <div>
+                  <p class="mb-4">
+                    SmartBrain is a website that uses a Clarifai API to recognize faces. It saves user credential and how many entries they have.
+                    SmartBrain was built using React frontend, Node.js & Express.js backend, and a postgreSQL database. 
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://smart-brain-sg-fe.herokuapp.com/">
+                  See Live!
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/shaleeng/SmartBrain-API">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="https://smart-brain-sg-fe.herokuapp.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/Smartbrain.jpg" />
                   </div>
                 </a>
               </div>
@@ -133,7 +152,7 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Particle Explosion</h3>
                 <div>
                   <p class="mb-4">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -144,44 +163,9 @@
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                  See Live!
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project.jpg" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <!-- Robofriends -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/shaleeng/Particle-explosion">
                   Source Code
                 </a>
               </div>
@@ -208,7 +192,7 @@
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
           <!-- Need to make this CTA wayy better -->
-          <p class="contact-wrapper__text">Shoot me an email if you are interested in learning more - always looking to connect!</p>
+          <p class="contact-wrapper__text">Shoot me an email if you are interested in chatting - always looking to connect!</p>
           <a
             target="_blank"
             class="cta-btn cta-btn--resume"

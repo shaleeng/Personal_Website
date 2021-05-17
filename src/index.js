@@ -20,7 +20,7 @@ $('a[href^="#"]').on("click", function (event) {
 function addResume(pdf) {
   if (!pdf) return;
 
-  const resumeButton = document.querySelector(".cta-btn--resume");
+  const resumeButton = document.querySelector(".resume1");
   resumeButton.setAttribute("href", pdf);
 }
 

@@ -24,13 +24,13 @@
 /* Hero Style */
 .cta-btn--hero {
   @include supportColorForIE11();
-  border: 2px solid transparent;
+  border: 2px solid transparent !important;
   border-image: linear-gradient(
     135deg,
     $primary-color 0%,
     $secondary-color 100%
-  );
-  border-image-slice: 1;
+  ) !important;
+  border-image-slice: 1 !important;
   @include supportIE11() {
     color:$secondary-color !important;
     &:hover {
@@ -39,9 +39,9 @@
   }
   // Responsive Button hero style
   @include respond(phone) {
-    background-image: none;
-    border: 2px solid $secondary-color;
-    -webkit-text-fill-color: $secondary-color;
+    background-image: none !important;
+    border: 2px solid $secondary-color !important;
+    -webkit-text-fill-color: $secondary-color !important;
   }
 
   &::after {
