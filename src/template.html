@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6K1ZNFZRRL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'G-6K1ZNFZRRL');
+    </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,12 +38,12 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Shaleen Goel</span>, and
+          Hi! My name is <span class="text-color-main">Shaleen Goel</span>, and
           <br />
           I'm an aspiring Product Manager!
         </h1>
         <p class="hero-cta" class="load-hidden">
-          <a target="_blank" class="cta-btn cta-btn--hero" href="./assets/resume.200292d82af175b5a961f4cf0add6e60.pdf">View resume</a>
+          <a class="cta-btn cta-btn--hero text-color-main" href="#about">Learn more!</a>
         </p>
       </div>
     </div>
@@ -60,11 +69,21 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                My name is Shaleen & I am an Associate Consultant at Bain looking to break into Product Management. At Bain, I have really enjoyed my projects working with software products and understanding what drives their success. This led me to become interested in Product Management - the ability to be the voice of the customer and drive progress on great products really excites me.              </p>
+                My name is Shaleen & I am an Associate Consultant at Bain looking to break into Product Management. 
+                At Bain, I have really enjoyed my projects working with software products and understanding what 
+                drives their success. Going forward, the ability to be the voice of the customer and drive progress 
+                on great products is what really excites me, and is why I am interested in Product Management.
+                </p>
               <p class="about-wrapper__info-text">
-                Outside of Bain, I work part-time at <a href="https://www.Auxi.ai" target="_blank" class="auxi">auxi.ai</a> as a Product Manager on an automated chat box slide creation tool for consultants. I also started teaching myself coding earlier this year and am working on a variety of side-projects (like this website!) primarily using React & Node.js to build web applications.
+                Outside of Bain, I work part-time at <a href="https://www.Auxi.ai" target="_blank" class="auxi">auxi.ai</a> 
+                as a Product Manager for an automated chat box slide creation tool for consultants. I also started teaching 
+                myself to code earlier this year and am working on a variety of side-projects (like this website!) 
+                primarily using React & Node.js to build web applications.
               </p>
               <span class="d-flex mt-3">
+                <a target="_blank" class="cta-btn cta-btn--resume" href="./assets/resume.200292d82af175b5a961f4cf0add6e60.pdf">
+                  View Resume
+                </a>
               </span>
             </div>
           </div>
@@ -87,8 +106,8 @@
                 <h3 class="project-wrapper__text-title">Smartbrain - Frontend</h3>
                 <div>
                   <p class="mb-4">
-                    SmartBrain is a website that uses a Clarifai API to recognize faces. It saves user credential and how many entries they have.
-                    SmartBrain was built using React frontend, Node.js & Express.js backend, and a postgreSQL database. 
+                    SmartBrain is a website that uses a Clarifai API to recognize faces. It is a single-page application that
+                    enables users to register and sign-in. Frontend built using React.
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="https://smart-brain-sg-fe.herokuapp.com/">
@@ -102,7 +121,7 @@
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a href="https://smart-brain-sg-fe.herokuapp.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
+                  <div class="prof-pic">
                     <img class="img-fluid" src="./assets/Smartbrain.jpg"/>
                   </div>
                 </a>
@@ -119,8 +138,9 @@
                 <h3 class="project-wrapper__text-title">SmartBrain - API</h3>
                 <div>
                   <p class="mb-4">
-                    SmartBrain is a website that uses a Clarifai API to recognize faces. It saves user credential and how many entries they have.
-                    SmartBrain was built using React frontend, Node.js & Express.js backend, and a postgreSQL database. 
+                    SmartBrain is a website that uses a Clarifai API to recognize faces. Backend is a RESTful API built using 
+                    Node.js & Express.js. Database encrypts & saves user credentials as well as how many entries they have. Database 
+                    built using postgreSQL.
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="https://smart-brain-sg-fe.herokuapp.com/">
@@ -134,8 +154,8 @@
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a href="https://smart-brain-sg-fe.herokuapp.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/Smartbrain.jpg" />
+                  <div class="prof-pic">
+                    <img class="img-fluid" src="./assets/Backend.jpg" />
                   </div>
                 </a>
               </div>
@@ -151,7 +171,8 @@
                 <h3 class="project-wrapper__text-title">Particle Explosion</h3>
                 <div>
                   <p class="mb-4">
-                    Basic C++ project using a SDL library to simulate particle explosions!
+                    Basic C++ project using a SDL library to simulate particle explosions. Created by following 
+                    along a Udemy tutorial. Look at See Live for sample of project in action!
                   </p>
                 </div>
                 <a target="_blank" class="cta-btn cta-btn--hero" href="https://youtu.be/RWxv2Sniqqo?t=111">
@@ -165,7 +186,7 @@
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
+                  <div class="prof-pic">
                     <img class="img-fluid" src="./assets/Particle.jpg" />
                   </div>
                 </a>
